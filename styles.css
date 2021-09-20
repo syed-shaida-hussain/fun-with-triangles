@@ -1,4 +1,97 @@
-input{
-    padding: 1rem;
-    
+:root{
+    --primary_color : #8B5CF6;
 }
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+nav{
+    background-color: var(--primary_color);
+    padding: 2rem;
+    text-align: center;
+    margin: auto;
+}
+
+nav > a{
+    color: white;
+    padding-right: 2rem;
+    text-decoration: none;
+}
+
+.heading{
+    text-align: center;
+}
+
+#angle1, #angle2, #angle3{
+    padding: 1rem;
+    display: block;
+    margin: auto;
+    border-radius: 0.5rem;
+    border-color: var(--primary_color);
+}
+
+.angles{
+    display: block;
+    text-align: center;
+    font-size: x-large;
+    padding: 1rem;
+    color: var(--primary_color);
+}
+
+.btn-container{
+    text-align: center;
+    margin: auto;
+    padding-top: 1rem;
+}
+
+button{
+    background-color: var(--primary_color);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+#output{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-size: larger;
+}
+
+p{
+    text-align: center;
+}
+
+.list-inline{
+    display: inline;
+}
+
+.question-container{
+    text-align: center;
+}
+
+.side-input{
+    padding: 1rem;
+    display: block;
+    margin: auto;
+    border-radius: 0.5rem;
+    border-color: var(--primary_color);
+}
+
+#output-box{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-size: x-large;
+}
+
+#side1, #side2, #side3{
+    padding: 1rem;
+    display: block;
+    margin: auto;
+    border-radius: 0.5rem;
+    border-color: var(--primary_color);
+}
+

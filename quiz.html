@@ -3,29 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
     <title>Triangle Quiz</title>
 </head>
 <body>
     <nav>
         <a href="/index.html">Is Triangle?</a>
-        <a href="/quiz.html">Triangle Quiz</a>
+        <a href="/quiz.html">Quiz</a>
         <a href="/hypoteneuse.html">Calculate Hypotenuse</a>
+        <a href="/areaoftriangle.html">Area of Triangle</a>
     </nav>
     <h1 class="heading">Triangle Quiz</h1>
+    <h3 class="heading">
+        You will get 1 point for each right answer.
+    </h3>
+    <hr>
 
     <form class="quiz-form">
         <div class="question-container">
             <p>
-                Question1: What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?
+                What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?
             </p>
-            <label >
+            <label class="list-inline">
                 <input type="radio" name="question1" value="45°"/> 45°
             </label>
-            <label >
-                <input type="radio"  name="question1" value="90°"/> 90°
+            <label class="list-inline">
+                <input type="radio" name="question1" value="90°"/> 90°
             </label>
-            <label >
-                <input type="radio"  name="question1" value="60°"/> 60°
+            <label class="list-inline">
+                <input type="radio" name="question1" value="60°"/> 60°
             </label>
         </div>
 
@@ -41,6 +47,52 @@
             </label>
             <label >
                 <input type="radio"  name="question2" value="right angled"/> right angled
+            </label>
+        </div>
+
+        <div class="question-container">
+            <p>
+                A triangle in which one of the interior angles measures more than 90° is called?
+            </p>
+            <label >
+                <input type="radio" name="question3" value="obtuse"/> obtuse
+            </label>
+            <label >
+                <input type="radio"  name="question3" value="acute"/> acute
+            </label>
+            <label >
+                <input type="radio"  name="question3" value="right angled"/> right angled
+            </label>
+        </div>
+
+        <div class="question-container">
+            <p>
+                What will be the hypotenuse of the triangle if it's base is 10cm and altitudde is 4cm?
+            </p>
+            <label >
+                <input type="radio" name="question4" value="116"/> 116
+            </label>
+            <label >
+                <input type="radio"  name="question4" value="107.7"/> 107.7
+            </label>
+            <label >
+                <input type="radio"  name="question4" value="10.77"/> 10.77
+            </label>
+        </div>
+
+        
+        <div class="question-container">
+            <p>
+                The triangle in which all the sides are equal is called?
+            </p>
+            <label >
+                <input type="radio" name="question5" value="right triangle"/> right triangle
+            </label>
+            <label >
+                <input type="radio"  name="question5" value="equilateral triangle"/> equilateral triangle
+            </label>
+            <label >
+                <input type="radio"  name="question5" value="equiside triangle"/> equiside triangle
             </label>
         </div>
     </form>
